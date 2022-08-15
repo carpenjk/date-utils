@@ -1,7 +1,7 @@
 {
-  "name": "project-name",
+  "name": "@carpenjk/date-utils",
   "version": "1.0.0",
-  "description": "This a description",
+  "description": "A library of date utility functions.",
   "main": "lib/index.js",
   "scripts": {
     "prebuild": "rimraf lib",
@@ -14,8 +14,7 @@
     "url": "git+https://github.com/carpenjk/project-name.git"
   },
   "keywords": [
-    "keyword1",
-    "keyword2"
+    "dates"
   ],
   "author": "Jeremy Carpenter",
   "license": "Apache-2.0",
@@ -38,9 +37,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "styled-components": "^5.1.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "date-diff": "^1.0.2"
   },
   "peerDependencies": {
     "styled-components": "^5.1.1",
